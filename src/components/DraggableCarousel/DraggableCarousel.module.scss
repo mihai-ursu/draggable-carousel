@@ -1,0 +1,15 @@
+.carousel {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  width: fit-content;
+}
+
+.rectangle {
+  min-width: 14rem;
+  height: 20rem;
+  background: #636363;
+  &:nth-child(even) {
+    background: #919191;
+  }
+}
