@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.scss";
 import DraggableCarousel from "./components/DraggableCarousel/DraggableCarousel";
+import DraggableCarouselVerTwo from "./components/DraggableCarouselVerTwo/DraggableCarouselVerTwo";
 
 function App() {
   return (
@@ -14,6 +15,18 @@ function App() {
       <main className="container">
         <h1>Draggable Carousel</h1>
         <DraggableCarousel />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <h1>Draggable Carousel Paginate</h1>
+        <DraggableCarouselVerTwo />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </main>
     </div>
   );
