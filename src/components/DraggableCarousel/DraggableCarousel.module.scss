@@ -2,10 +2,39 @@ main h1 {
   margin-bottom: 2rem;
 }
 
+.carouselWrapper {
+  overflow-x: scroll;
+
+  scrollbar-width: thin;
+  scrollbar-color: #000 #ececec;
+
+  &::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #ececec;
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 10px;
+    width: 6px;
+    height: 6px;
+  }
+
+  &.mobile {
+    overflow-x: hidden;
+  }
+}
+
 .carousel {
   display: flex;
   gap: 20px;
   width: fit-content;
+  margin-bottom: 2rem;
 }
 
 .rectangle {
